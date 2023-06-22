@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="wrapper">
+    <aside>
+<header> 
+    <h1 class="logo">H-Company's | E-Comerce</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html" class="boton-menu boton-volver">Seguir Comprando</a></li>
+        <li><a href="" class="boton-menu boton-carrito active">Carrito </a></li>
+    </ul>
+</nav>
+<footer>
+    <p class="parrafo-footer">H | E-Comerce</p>
+</footer>
+    </aside>
+    <main>
+<h2 class="titulo-principal">Carrito</h2>
+<div class="contenedor-carrito">
+    <p class="carrito-vacio" id="carrito-vacio">El carrito esta vacio:(</p>
+    <div id="carrito-productos"class="carrito-productos disabled">
+     
+    </div>
+    <div id="carrito-acciones" class="carrito-acciones disabled">
+        <div class="carrito-acciones-izquierda">
+<button class="carrito-acciones-vaciar">Vaciar carrito</button>
+        </div>
+        <div class="carrito-acciones-derecha">
+            <div class="carrito-accioness-total">
+                <p>Total:</p>
+                <p id="total"></p>
+            </div>
+            <button class="carrito-acciones-comprar">Comprar</button>
+        </div>
+    </div>
+</div>
+    </main>
+</div>
+<script src="carrito.js"></script>
+</body>
+</html>
